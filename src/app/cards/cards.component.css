@@ -1,0 +1,13 @@
+ion-card-title
+{
+  font-weight: bolder;
+text-align: center;
+  font-style: italic;
+
+}
+
+ion-card
+{
+  height: 3cm;
+  width: 3cm;
+}
