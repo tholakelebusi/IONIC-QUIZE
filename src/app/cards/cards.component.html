@@ -10,7 +10,9 @@ Quize Categories
   </ion-header> 
 
 
-  <ion-content col=2>
+  <ion-content padding>
+    <ion-grid>
+    <ion-row>
  <ion-item [routerLink]="['/fashion']">
   <ion-card>
   <ion-card-header>
@@ -33,7 +35,8 @@ Quize Categories
   </ion-card-content>
  </ion-card>
  </ion-item>
-
+    </ion-row>
+    <ion-row
   <ion-item [routerLink]="['/travel']">
   <ion-card>
   <ion-card-header>
@@ -55,7 +58,7 @@ Quize Categories
   </ion-card-content>
   </ion-card> 
    </ion-item>
-<ion-footer>
-  <ion-icon name="ios-home-outline">Home</ion-icon>
-</ion-footer>
+    </ion-row>
+    </ion-grid>
+
   </ion-content> 
