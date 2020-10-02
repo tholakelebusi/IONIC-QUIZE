@@ -8,6 +8,7 @@ text-align: center;
 
 ion-card
 {
-  height: 3cm;
-  width: 3cm;
+  height: 7cm;
+  width: 8cm;
+  color: yellowgreen;
 }
